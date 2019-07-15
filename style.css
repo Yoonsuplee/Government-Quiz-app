@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto';
+    background-color: #ffffff;
+    background: url('https://media1.fdncms.com/sacurrent/imager/u/original/2484263/306484666_2bd1fe7286_z.jpg') fixed no-repeat;
+    background-size: 100%, 100%;
+    color: white;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+}
+
+header ul li {
+  list-style: none;
+}
+
+.status {
+  display:flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.intro {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#question{
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+fieldset {
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+input[type=radio] {
+    flex: 0 0 auto;
+    margin-right: 10px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  background: grey 50%;
+}
+
+.intro-2 {
+  margin: 0px;
+  padding: 0px;
+}
+.submitButton {
+  display: flex;
+  justify-content:center;
+  margin: 20px;
+  padding: 5px;
+  background-color: grey;
+  color: white;
+}
+.start-button {
+  display: flex;
+  justify-content:center;
+  margin: 20px;
+  padding: 10px;
+
+}
+//@media screen and (min-width:800px) {
+  background-size: 2000px, 2000px;
+}
